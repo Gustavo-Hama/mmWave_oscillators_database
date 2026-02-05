@@ -67,15 +67,15 @@ The following table describes the parameters analyzed for each entry in the data
 * **FOM ($FOM@10\,\text{MHz}$)**:  
   The standard Figure of Merit for VCOs, typically calculated as:
   
-  <img src="images/FOM.png" alt="FOM" height="60">
+  <img src="images/FOM.png" alt="FOM" height="40">
 
   where $PN_{10\,\text{MHz}}$ is the phase noise at a 10 MHz offset, $f_{osc}$ is the oscillation frequency, and $P_{DC}$ is the core DC power consumption.
 
 * **Tuning Range Figure of Merit ($FOM_T@10\,\text{MHz}$)**:  
   An extended Figure of Merit that incorporates the Frequency Tuning Range ($FTR$):
   
-  <img src="images/FOM_T.png" alt="FOM_T" height="60">
-  
+  <img src="images/FOM_t.png" alt="FOM_T" height="40">
+
   where $FTR$ is the frequency tuning range expressed as a percentage of the center frequency.
 
 ---
