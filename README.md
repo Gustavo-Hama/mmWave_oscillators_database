@@ -12,7 +12,7 @@
 
 | | |
 | :--- | :--- |
-| <img src="images/TIMA_logo.png" alt="TIMA Logo" height="40"> | ¹ Univ. Grenoble Alpes, Grenoble INP, CNRS, TIMA, 38000 Grenoble, France |
+| <img src="images/TIMA_logo_white.png" alt="TIMA Logo" height="40"> | ¹ Univ. Grenoble Alpes, Grenoble INP, CNRS, TIMA, 38000 Grenoble, France |
 | <img src="images/USP.png" alt="USP Logo" height="60"> | ² Laboratory of Microelectronics, University of São Paulo, São Paulo 05508-010, Brazil |
 | <img src="images/UFPB_logo.png" alt="UFPB Logo" height="60"> | ³ Department of Electrical Engineering, Federal University of Paraíba, João Pessoa 58051-900, Brazil |
 
