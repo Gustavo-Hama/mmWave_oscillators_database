@@ -64,19 +64,24 @@ The following table describes the parameters analyzed for each entry in the data
 
 ### Figure of Merit (FOM) Definitions
 
+* **FOM ($FOM@10\,\text{MHz}$)**:  
+  The standard Figure of Merit for VCOs, typically calculated as:
+  
+  $$
+  FOM = PN_{10\,\text{MHz}} - 20\log_{10}\left(\frac{f_{osc}}{10 \text{ MHz}}\right) + 10\log_{10}\left(\frac{P_{DC}}{1 \text{ mW}}\right)
+  $$
 
+  where $PN_{10\,\text{MHz}}$ is the phase noise at a 10 MHz offset, $f_{osc}$ is the oscillation frequency, and $P_{DC}$ is the core DC power consumption.
 
-- **FOM ($FOM@10\,\text{MHz}$)**:  
-    The standard Figure of Merit for VCOs, typically calculated as:  
-    $ FOM = PN_{10\,\text{MHz}} - 20\log_{10}\left(\frac{f_{osc}}{10 \text{ MHz}}\right) + 10\log_{10}\left(\frac{P_{DC}}{1\,\text{mW}}\right) $
+* **Tuning Range Figure of Merit ($FOM_T@10\,\text{MHz}$)**:  
+  An extended Figure of Merit that incorporates the Frequency Tuning Range ($FTR$):
+  
+  $$
+  FOM_T = FOM + 20\log_{10}\left(\frac{FTR (\%)}{10}\right)
+  $$
 
-    where $PN_{10\,\text{MHz}}$ is the phase noise at a 10 MHz offset, $f_{osc}$ is the oscillation frequency, and $P_{DC}$ is the core DC power consumption.
+  where $FTR$ is the frequency tuning range expressed as a percentage of the center frequency.
 
-- **Tuning Range Figure of Merit ($FOM_T@10\,\text{MHz}$)**:  
-    An extended Figure of Merit that incorporates the Frequency Tuning Range ($FTR$):  
-    $ FOM_T = FOM + 20\log_{10}\left(\frac{FTR (\%)}{10}\right) $
-
-    where $FTR$ is the frequency tuning range expressed as a percentage of the center frequency.
 ---
 
 ## 🚀 How to Contribute
