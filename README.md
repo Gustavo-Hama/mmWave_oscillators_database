@@ -1,4 +1,5 @@
 # mmWave oscillators database
+
 ## Authors
 
 [**Gustavo M. Hama**](mailto:gustavo.misawa-hama@univ-grenoble-alpes.fr)¹⁺²  
@@ -9,20 +10,13 @@
 
 ### Affiliations
 
-<table>
-  <tr>
-    <td><img src="images/TIMA_logo.png" alt="TIMA Logo" height="40"></td>
-    <td>¹ Univ. Grenoble Alpes, Grenoble INP, CNRS, TIMA, 38000 Grenoble, France</td>
-  </tr>
-  <tr>
-    <td><img src="images/USP.png" alt="USP Logo" height="60"></td>
-    <td>² Laboratory of Microelectronics, University of São Paulo, São Paulo 05508-010, Brazil</td>
-  </tr>
-  <tr>
-    <td><img src="images/ufpb_logo.png" alt="UFPB Logo" height="60"></td>
-    <td>³ Department of Electrical Engineering, Federal University of Paraíba, João Pessoa 58051-900, Brazil</td>
-  </tr>
-</table>
+| | |
+| :--- | :--- |
+| <img src="images/TIMA_logo.png" alt="TIMA Logo" height="40"> | ¹ Univ. Grenoble Alpes, Grenoble INP, CNRS, TIMA, 38000 Grenoble, France |
+| <img src="images/USP.png" alt="USP Logo" height="60"> | ² Laboratory of Microelectronics, University of São Paulo, São Paulo 05508-010, Brazil |
+| <img src="images/UFPB_logo.png" alt="UFPB Logo" height="60"> | ³ Department of Electrical Engineering, Federal University of Paraíba, João Pessoa 58051-900, Brazil |
+
+---
 
 ## 📊 Overview
 
@@ -32,6 +26,8 @@ This repository contains a comprehensive database gathering performance data fro
 
 If you use this database for your research, please cite it as:
 > Gustavo M. Hama et al., "mmWave Oscillators Database," [Online]. Available: https://github.com/Gustavo-Hama/mmWave_oscillators_database
+
+---
 
 ## 🔬 Database Schema & Parameter Definitions
 
@@ -68,14 +64,18 @@ The following table describes the parameters analyzed for each entry in the data
 
 ### Figure of Merit (FOM) Definitions
 
+
+
 - **FOM ($FOM@10\,\text{MHz}$)**:  
     The standard Figure of Merit for VCOs, typically calculated as:  
-    $$ FOM = PN_{10\,\text{MHz}} - 20\log_{10}\left(\frac{f_{osc}}{10 \text{ MHz}}\right) + 10\log_{10}\left(\frac{P_{DC}}{1\,\text{mW}}\right) $$
+    $ FOM = PN_{10\,\text{MHz}} - 20\log_{10}\left(\frac{f_{osc}}{10 \text{ MHz}}\right) + 10\log_{10}\left(\frac{P_{DC}}{1\,\text{mW}}\right) $
+
     where $PN_{10\,\text{MHz}}$ is the phase noise at a 10 MHz offset, $f_{osc}$ is the oscillation frequency, and $P_{DC}$ is the core DC power consumption.
 
 - **Tuning Range Figure of Merit ($FOM_T@10\,\text{MHz}$)**:  
     An extended Figure of Merit that incorporates the Frequency Tuning Range ($FTR$):  
-    $$ FOM_T = FOM + 20\log_{10}(FTR (\%)/10) $$
+    $ FOM_T = FOM + 20\log_{10}\left(\frac{FTR (\%)}{10}\right) $
+
     where $FTR$ is the frequency tuning range expressed as a percentage of the center frequency.
 ---
 
@@ -83,11 +83,8 @@ The following table describes the parameters analyzed for each entry in the data
 
 Contributions are welcome! If you would like to add a design to the database, please contact us by email.
 
-##  Acknowledgments
+## Acknowledgments
 
-<table>
-  <tr>
-    <td style="background: #fff;"><img src="images/NF_France_2030.png" alt="France 2030 NF-YACARI Logo" height="60"></td>
-    <td>Part of this work was funded by the French National Research Agency (ANR-22-PEFT-0005) as part of France 2030 and the NF-YACARI project.</td>
-  </tr>
-</table>
+| | |
+| :--- | :--- |
+| <img src="images/NF_France_2030.png" alt="France 2030 NF-YACARI Logo" height="100"> | Part of this work was funded by the French National Research Agency (ANR-22-PEFT-0005) as part of France 2030 and the NF-YACARI project. |
