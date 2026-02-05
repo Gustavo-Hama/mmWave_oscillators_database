@@ -25,7 +25,7 @@ This repository contains a comprehensive database gathering performance data fro
 ## 📝 Citation
 
 If you use this database for your research, please cite it as:
-> Gustavo M. Hama et al., "mmWave Oscillators Database," [Online]. Available: https://github.com/Gustavo-Hama/mmWave_oscillators_database
+> Gustavo M. Hama, Florence Podevin, Antonio A. L. Souza,  A. L. C. Serrano and Sylvain Bourdel , "mmWave Oscillators Database," [Online]. Available: https://github.com/Gustavo-Hama/mmWave_oscillators_database
 
 ---
 
