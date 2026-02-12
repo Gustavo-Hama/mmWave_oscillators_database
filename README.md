@@ -23,9 +23,10 @@
 This repository contains a comprehensive database gathering performance data from various research papers on mmWave oscillators. It is designed to assist researchers and designers in benchmarking and comparing state-of-the-art results in integrated technologies.
 
 ## 📝 Citation
+[![DOI](https://zenodo.org/badge/1150464857.svg)](https://doi.org/10.5281/zenodo.18625582)
 
 If you use this database for your research, please cite it as:
-> Gustavo M. Hama, Florence Podevin, Antonio A. L. Souza,  A. L. C. Serrano and Sylvain Bourdel , "mmWave Oscillators Database," [Online]. Available: https://github.com/Gustavo-Hama/mmWave_oscillators_database
+> Gustavo M. Hama, Florence Podevin, Antonio A. L. Souza,  A. L. C. Serrano and Sylvain Bourdel ,  “mmWave Oscillators Database,” Feb. 2026. [Online]. Available: https://doi.org/10.5281/zenodo.18625582
 
 ---
 
