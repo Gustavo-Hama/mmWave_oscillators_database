@@ -1,4 +1,4 @@
-# mmWave oscillators database
+# mmWave Oscillators Database
 
 ## Authors
 
